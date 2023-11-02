@@ -7,7 +7,7 @@ const Navbar = ({reffer}) => {
   },[active,reffer]);
   return (
     <div className={styles.container}>
-      <div className={styles.title}><img src="/images/omg.png"/>Omega</div>
+      <div className={styles.title}><img alt="x" src="/images/omg.png"/>Omega</div>
       <div className={styles.elements}>
         <div
           style={{ color: active === "home" ? "blue" : "black" }}
