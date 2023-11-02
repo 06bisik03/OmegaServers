@@ -16,8 +16,8 @@ const Home = ({setReffer}) => {
             We provide the best security systems for clients all over the world
             </div>
             <div>
-                <button className={styles.btn}>Get Started</button>
-                <button className={styles.btn}>Explore More</button>
+                <button onClick={() => setReffer('services')} className={styles.btn}>Get Started</button>
+                <button onClick={() => setReffer('contact')}className={styles.btn}>Explore More</button>
             </div>
         </div>
         <div>
